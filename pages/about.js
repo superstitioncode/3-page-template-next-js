@@ -1,9 +1,9 @@
-import Landing from "../components/Landing";
 import Layout from "../components/layouts/Layout";
-export default function Home() {
+
+export default function About() {
   return (
     <Layout>
-      <Landing />
+      <div>About page</div>
     </Layout>
   );
 }
